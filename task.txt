@@ -1,0 +1,33 @@
+Dear Frontend Developers,
+
+I hope all is well, 
+
+I am Asma AlMiani, the COO and Project Manager of Malek Alsmadi Establishment. I would like to congratulate you for passing the first step of recruiting successfully. Moving on to the next stage, I am contacting you to assign the task 'Translate design to HTML/CSS coding', please find the technical task details below:
+
+ - Task Deadline: 1 Week.
+
+ - Task Uploading Method: A public repository via Github.
+
+ - Do not use a template.
+
+ - Entire page Requirements;
+Create a web design based on the provided photo, kindly find it attached. You can use whatever content, colors, and photos you want under the condition of sticking to the main structure of the design provided.
+Create a smooth scrolling animation.
+Section (1) Requirements;
+Switch the word 'Eating' to 'Lifestyle' and 'Sleeping' through an animation in the header text (Similar idea to https://codepen.io/yemon/pen/YrPmQr).
+Section (2) Requirements;
+Create a slider.
+While hovering, each card must be activated.
+Section (3 & 4) Requirements;
+No specific requirements needed.
+Section (5) Requirements;
+Activate scrolling on the menu bar (Left side of the page).
+Activate the slider (Right side of the page).
+Section (6) Requirements;
+Activate the slider.
+To meet the deadline, you must submit your work before or on the 21st/August/2023.
+
+Should you require assistance or have any questions going forward, please do not hesitate to discuss them with me at A.almiani@lavishride.com. 
+
+
+Best Regards,
