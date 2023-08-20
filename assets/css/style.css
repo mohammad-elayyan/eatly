@@ -63,7 +63,7 @@ section:not(#section_1) {
 }
 
 .scrollToHome {
-    bottom: 15px;
+    bottom: 20px;
     display: none;
     opacity: 0;
     font-size: 18px;
@@ -74,7 +74,7 @@ section:not(#section_1) {
     border-radius: 50%;
     background: #5297CC;
     position: fixed;
-    right: 20px;
+    right: 18px;
     text-align: center;
     z-index: 99999;
     transition: all 0.3s ease-in-out 0s;
@@ -83,7 +83,7 @@ section:not(#section_1) {
 
 .active {
     display: block;
-    opacity: 1;
+    opacity: .85;
 }
 
 /* nav style start */
@@ -655,6 +655,10 @@ section:not(#section_1) {
     margin: 0 10px;
 }
 
+.menu .splide__slide p {
+    width: 80%;
+}
+
 .menu .splide__slide .img-back {
     width: 100%;
     min-height: 165px;
@@ -707,10 +711,14 @@ section:not(#section_1) {
 
 /* Section_6 style start */
 
-.testimonials .splide__slide {
+.testimonials .splide__track {
     background-color: rgba(0, 131, 183, .08);
     border-radius: 30px;
+}
+
+.testimonials .splide__slide {
     padding: 40px 20px;
+
     padding-left: 35px;
 }
 
@@ -757,11 +765,11 @@ footer .footer-item ul li {
     margin: .6rem 0;
 }
 
-footer .footer-item ul li a {
+footer a {
     color: var(--gray-font) !important;
 }
 
-footer .footer-item ul li a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -878,7 +886,8 @@ footer .footer-item ul li a:hover {
     }
 
     p,
-    footer .footer-item ul li {
+    footer .footer-item ul li,
+    .programs a {
 
         font-size: 2vw;
     }
@@ -898,6 +907,15 @@ footer .footer-item ul li a:hover {
         width: 90%;
         font-size: 17px;
     }
+
+    .splide__arrows {
+        width: 120px;
+    }
+
+    .splide__arrow {
+        width: 2em;
+        height: 2em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -907,6 +925,11 @@ footer .footer-item ul li a:hover {
 
     .nav {
         padding: 0 1.5rem;
+    }
+
+    .nice-btn {
+        font-size: 13px;
+        font-weight: 700;
     }
 
     .programs .splide__arrows {
@@ -957,7 +980,8 @@ footer .footer-item ul li a:hover {
     .menu .splide__slide {
         max-width: 90vw;
         max-height: 100%;
-        transform: scale(.8);
+        /* transform: scale(.9); */
+        margin: 0 0;
     }
 
     .menu .splide__slide .img-back {
@@ -965,6 +989,14 @@ footer .footer-item ul li a:hover {
         max-height: 90%;
     }
 
+    .splide__arrows {
+        width: 100px;
+    }
+
+    .splide__arrow {
+        width: 1.5em;
+        height: 1.5em;
+    }
 }
 
 

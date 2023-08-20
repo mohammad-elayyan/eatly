@@ -1,8 +1,12 @@
 $(document).ready(function () {
   $nav = $(".nav");
+  $navLink = $(".nav-link a");
   $toggle_collapse = $(".toggle-collapse .toggle-icons");
 
   $toggle_collapse.click(function () {
+    $nav.toggleClass("collapse-nav");
+  });
+  $navLink.click(function () {
     $nav.toggleClass("collapse-nav");
   });
   splideSetup();
