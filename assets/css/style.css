@@ -17,9 +17,6 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: rgba(204, 204, 204, .1);
-}
-
-html {
     scrollbar-width: thin;
     scrollbar-color: #008FC9 #d6d6dc;
 }
@@ -61,8 +58,32 @@ ul {
 }
 
 section:not(#section_1) {
-    margin: 120px 0;
+    margin: 110px 0;
     padding: 0 4vw;
+}
+
+.scrollToHome {
+    bottom: 15px;
+    display: none;
+    opacity: 0;
+    font-size: 18px;
+    padding: 0px 11px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #5297CC;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    z-index: 99999;
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(255, 255, 255) !important;
+}
+
+.active {
+    display: block;
+    opacity: 1;
 }
 
 /* nav style start */
@@ -385,7 +406,7 @@ section:not(#section_1) {
     padding: 2vw 0;
     position: relative;
     z-index: 1;
-    transition: transform .3s ease;
+    transition: transform .3s ease 0s;
 }
 
 .programs .splide__slide:hover {
@@ -436,7 +457,22 @@ section:not(#section_1) {
 .programs .splide__slide p {
     max-width: 180px;
     letter-spacing: .3px;
-    text-align: justify;
+    text-align: center;
+}
+
+.programs .splide__slide a {
+    color: var(--navy-font) !important;
+    font-weight: 600;
+    display: none;
+    transition: all .3s ease 0s;
+}
+
+.programs .splide__slide a:hover {
+    letter-spacing: .4px;
+}
+
+.programs .splide__slide:hover a {
+    display: block;
 }
 
 .icon {
@@ -698,6 +734,39 @@ section:not(#section_1) {
 
 /* Section_6 style end */
 
+
+/* Footer style start */
+footer h5 {
+    color: var(--navy-font);
+}
+
+footer p {
+    color: var(--gray-font);
+}
+
+footer img {
+    width: 115px;
+}
+
+footer .footer-item ul {
+    padding: 0;
+}
+
+
+footer .footer-item ul li {
+    margin: .6rem 0;
+}
+
+footer .footer-item ul li a {
+    color: var(--gray-font) !important;
+}
+
+footer .footer-item ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer style end */
+
 @media only screen and (max-width: 992px) {
     h5 {
         font-size: 2vw;
@@ -808,7 +877,9 @@ section:not(#section_1) {
         font-size: 2.5vw;
     }
 
-    p {
+    p,
+    footer .footer-item ul li {
+
         font-size: 2vw;
     }
 
@@ -862,8 +933,9 @@ section:not(#section_1) {
         font-size: 3vw;
     }
 
-    p {
-        font-size: 2.5vw;
+    p,
+    footer .footer-item ul li {
+        font-size: 2.6vw;
     }
 
     .section-title {
