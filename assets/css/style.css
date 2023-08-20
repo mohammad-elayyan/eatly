@@ -657,6 +657,7 @@ section:not(#section_1) {
 
 .menu .splide__slide p {
     width: 80%;
+    color: var(--navy-font);
 }
 
 .menu .splide__slide .img-back {
@@ -916,6 +917,11 @@ footer a:hover {
         width: 2em;
         height: 2em;
     }
+
+    .splide__arrow svg {
+        height: 1em;
+        width: 1em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -987,15 +993,6 @@ footer a:hover {
     .menu .splide__slide .img-back {
         max-width: 85%;
         max-height: 90%;
-    }
-
-    .splide__arrows {
-        width: 100px;
-    }
-
-    .splide__arrow {
-        width: 1.5em;
-        height: 1.5em;
     }
 }
 
