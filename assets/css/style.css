@@ -732,7 +732,7 @@ section:not(#section_1) {
     color: var(--gray-font);
 }
 
-.testimonials .icon {
+.testimonials .splide .icon {
     position: absolute;
     top: -22px;
     left: 32px;
