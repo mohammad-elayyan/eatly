@@ -729,7 +729,7 @@ section:not(#section_1) {
 }
 
 .testimonials p {
-    color: var(--gray-font);
+    color: var(--gray-font) !important;
 }
 
 .testimonials .splide .icon {
