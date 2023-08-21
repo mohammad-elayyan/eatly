@@ -560,7 +560,7 @@ section:not(#section_1) {
 }
 
 .values p {
-    color: var(--gray-color);
+    color: var(--navy-font);
 }
 
 /* Section_3 style end */
